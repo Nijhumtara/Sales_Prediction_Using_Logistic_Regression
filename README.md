@@ -26,14 +26,20 @@ This project uses the **Social Network Ads** dataset to train a binary classifie
 7. Visualization — scatter plot and decision boundary
 
 ## 📈 Results
-- **Accuracy:** XX%
-- **Precision:** XX%
-- **Recall:** XX%
-- **F1 Score:** XX%
+- **Accuracy:** 89.0%
+- **Precision:** 88.88888888888889%
+- **Recall:** 75.0%
+- **F1 Score:** 81.35593220338984%
 
 ## 🖼️ Visualizations
-![Decision Boundary](images/decision_boundary.png)
-![Confusion Matrix](images/confusion_matrix.png)
+
+### Customer Data Distribution
+![Customer Data Plot](customer_data_plot.png)
+*Scatter plot of Age vs Estimated Salary, colored by purchase outcome.*
+
+### Model Evaluation
+![Confusion Matrix](confusion_matrix.png)
+*Confusion matrix showing the model's prediction accuracy on the test set.*
 
 ## 🚀 How to Run
 1. Clone the repository
